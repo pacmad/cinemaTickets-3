@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3936D396225727D5001167A2 /* BaseTE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D395225727D5001167A2 /* BaseTE.swift */; };
+		3936D397225727D5001167A2 /* BaseTE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D395225727D5001167A2 /* BaseTE.swift */; };
+		3936D39922572A89001167A2 /* SpecialOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D39822572A89001167A2 /* SpecialOffer.swift */; };
+		3936D39A22572A89001167A2 /* SpecialOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D39822572A89001167A2 /* SpecialOffer.swift */; };
+		3936D39E225764E9001167A2 /* TicketTotalsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D39D225764E9001167A2 /* TicketTotalsManager.swift */; };
+		3936D39F225764E9001167A2 /* TicketTotalsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D39D225764E9001167A2 /* TicketTotalsManager.swift */; };
+		3936D3A422576ED5001167A2 /* ThursdayOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3A322576ED5001167A2 /* ThursdayOffer.swift */; };
+		3936D3A522576ED5001167A2 /* ThursdayOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3A322576ED5001167A2 /* ThursdayOffer.swift */; };
+		3936D3A722576F49001167A2 /* BaseOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3A622576F49001167A2 /* BaseOffer.swift */; };
+		3936D3A822576F49001167A2 /* BaseOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3A622576F49001167A2 /* BaseOffer.swift */; };
+		3936D3AA2257A17C001167A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3A92257A17C001167A2 /* Constants.swift */; };
+		3936D3AB2257A17C001167A2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3A92257A17C001167A2 /* Constants.swift */; };
+		3936D3CD225B2142001167A2 /* Double+Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3CC225B2142001167A2 /* Double+Decorator.swift */; };
+		3936D3CE225B2142001167A2 /* Double+Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3CC225B2142001167A2 /* Double+Decorator.swift */; };
+		3936D3D0225B548E001167A2 /* ExtraIMAX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3CF225B548E001167A2 /* ExtraIMAX.swift */; };
+		3936D3D1225B548E001167A2 /* ExtraIMAX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3CF225B548E001167A2 /* ExtraIMAX.swift */; };
+		3936D3D3225B54AC001167A2 /* ExtraReal3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3D2225B54AC001167A2 /* ExtraReal3D.swift */; };
+		3936D3D4225B54AC001167A2 /* ExtraReal3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3D2225B54AC001167A2 /* ExtraReal3D.swift */; };
+		3936D3D8225B5BD7001167A2 /* TicketStandard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3D7225B5BD7001167A2 /* TicketStandard.swift */; };
+		3936D3D9225B5BD7001167A2 /* TicketStandard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3D7225B5BD7001167A2 /* TicketStandard.swift */; };
+		3936D3DB225B5BED001167A2 /* TicketConcession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3DA225B5BED001167A2 /* TicketConcession.swift */; };
+		3936D3DC225B5BED001167A2 /* TicketConcession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936D3DA225B5BED001167A2 /* TicketConcession.swift */; };
+		39E8ED162256858F003D7025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8ED152256858F003D7025 /* AppDelegate.swift */; };
+		39E8ED182256858F003D7025 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8ED172256858F003D7025 /* ViewController.swift */; };
+		39E8ED1B2256858F003D7025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E8ED192256858F003D7025 /* Main.storyboard */; };
+		39E8ED1D22568591003D7025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E8ED1C22568591003D7025 /* Assets.xcassets */; };
+		39E8ED2022568591003D7025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E8ED1E22568591003D7025 /* LaunchScreen.storyboard */; };
+		39E8ED2B22568591003D7025 /* ticketOfficeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8ED2A22568591003D7025 /* ticketOfficeTests.swift */; };
+		39E8ED3A225699AF003D7025 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 39E8ED39225699AE003D7025 /* README.md */; };
+		39E8ED3C22569B41003D7025 /* BaseTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8ED3B22569B41003D7025 /* BaseTicket.swift */; };
+		39E8ED3D22569B41003D7025 /* BaseTicket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8ED3B22569B41003D7025 /* BaseTicket.swift */; };
+		39E8ED3F22569B57003D7025 /* BaseExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8ED3E22569B57003D7025 /* BaseExtra.swift */; };
+		39E8ED4022569B57003D7025 /* BaseExtra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E8ED3E22569B57003D7025 /* BaseExtra.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39E8ED2722568591003D7025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39E8ED0A2256858F003D7025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39E8ED112256858F003D7025;
+			remoteInfo = ticketOffice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3936D395225727D5001167A2 /* BaseTE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTE.swift; sourceTree = "<group>"; };
+		3936D39822572A89001167A2 /* SpecialOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialOffer.swift; sourceTree = "<group>"; };
+		3936D39D225764E9001167A2 /* TicketTotalsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTotalsManager.swift; sourceTree = "<group>"; };
+		3936D3A322576ED5001167A2 /* ThursdayOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThursdayOffer.swift; sourceTree = "<group>"; };
+		3936D3A622576F49001167A2 /* BaseOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseOffer.swift; sourceTree = "<group>"; };
+		3936D3A92257A17C001167A2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3936D3CC225B2142001167A2 /* Double+Decorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Decorator.swift"; sourceTree = "<group>"; };
+		3936D3CF225B548E001167A2 /* ExtraIMAX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraIMAX.swift; sourceTree = "<group>"; };
+		3936D3D2225B54AC001167A2 /* ExtraReal3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraReal3D.swift; sourceTree = "<group>"; };
+		3936D3D7225B5BD7001167A2 /* TicketStandard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketStandard.swift; sourceTree = "<group>"; };
+		3936D3DA225B5BED001167A2 /* TicketConcession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketConcession.swift; sourceTree = "<group>"; };
+		39E8ED122256858F003D7025 /* ticketOffice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ticketOffice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E8ED152256858F003D7025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		39E8ED172256858F003D7025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		39E8ED1A2256858F003D7025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39E8ED1C22568591003D7025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39E8ED1F22568591003D7025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39E8ED2122568591003D7025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39E8ED2622568591003D7025 /* ticketOfficeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ticketOfficeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E8ED2A22568591003D7025 /* ticketOfficeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ticketOfficeTests.swift; sourceTree = "<group>"; };
+		39E8ED2C22568591003D7025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39E8ED39225699AE003D7025 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		39E8ED3B22569B41003D7025 /* BaseTicket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTicket.swift; sourceTree = "<group>"; };
+		39E8ED3E22569B57003D7025 /* BaseExtra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseExtra.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39E8ED0F2256858F003D7025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E8ED2322568591003D7025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3936D39C225753EB001167A2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3936D39822572A89001167A2 /* SpecialOffer.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3936D3CA225B1350001167A2 /* Tickets and Extras */ = {
+			isa = PBXGroup;
+			children = (
+				3936D3D6225B5B8A001167A2 /* Base */,
+				3936D3CF225B548E001167A2 /* ExtraIMAX.swift */,
+				3936D3D2225B54AC001167A2 /* ExtraReal3D.swift */,
+				3936D3D7225B5BD7001167A2 /* TicketStandard.swift */,
+				3936D3DA225B5BED001167A2 /* TicketConcession.swift */,
+			);
+			path = "Tickets and Extras";
+			sourceTree = "<group>";
+		};
+		3936D3CB225B136B001167A2 /* Special Offers */ = {
+			isa = PBXGroup;
+			children = (
+				3936D3D5225B5B7D001167A2 /* Base */,
+				3936D3A322576ED5001167A2 /* ThursdayOffer.swift */,
+			);
+			path = "Special Offers";
+			sourceTree = "<group>";
+		};
+		3936D3D5225B5B7D001167A2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3936D3A622576F49001167A2 /* BaseOffer.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3936D3D6225B5B8A001167A2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3936D395225727D5001167A2 /* BaseTE.swift */,
+				39E8ED3B22569B41003D7025 /* BaseTicket.swift */,
+				39E8ED3E22569B57003D7025 /* BaseExtra.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		39E8ED092256858F003D7025 = {
+			isa = PBXGroup;
+			children = (
+				39E8ED142256858F003D7025 /* ticketOffice */,
+				39E8ED2922568591003D7025 /* ticketOfficeTests */,
+				39E8ED132256858F003D7025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39E8ED132256858F003D7025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39E8ED122256858F003D7025 /* ticketOffice.app */,
+				39E8ED2622568591003D7025 /* ticketOfficeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39E8ED142256858F003D7025 /* ticketOffice */ = {
+			isa = PBXGroup;
+			children = (
+				39E8ED39225699AE003D7025 /* README.md */,
+				39E8ED152256858F003D7025 /* AppDelegate.swift */,
+				39E8ED37225685F2003D7025 /* Data */,
+				39E8ED35225685DB003D7025 /* GUI */,
+				3936D39C225753EB001167A2 /* Protocols */,
+				39E8ED36225685E7003D7025 /* Utils */,
+				39E8ED3822568603003D7025 /* ViewControllers */,
+				39E8ED1C22568591003D7025 /* Assets.xcassets */,
+				39E8ED2122568591003D7025 /* Info.plist */,
+			);
+			path = ticketOffice;
+			sourceTree = "<group>";
+		};
+		39E8ED2922568591003D7025 /* ticketOfficeTests */ = {
+			isa = PBXGroup;
+			children = (
+				39E8ED2A22568591003D7025 /* ticketOfficeTests.swift */,
+				39E8ED2C22568591003D7025 /* Info.plist */,
+			);
+			path = ticketOfficeTests;
+			sourceTree = "<group>";
+		};
+		39E8ED35225685DB003D7025 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				39E8ED192256858F003D7025 /* Main.storyboard */,
+				39E8ED1E22568591003D7025 /* LaunchScreen.storyboard */,
+			);
+			path = GUI;
+			sourceTree = "<group>";
+		};
+		39E8ED36225685E7003D7025 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3936D3A92257A17C001167A2 /* Constants.swift */,
+				3936D39D225764E9001167A2 /* TicketTotalsManager.swift */,
+				3936D3CC225B2142001167A2 /* Double+Decorator.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		39E8ED37225685F2003D7025 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3936D3CB225B136B001167A2 /* Special Offers */,
+				3936D3CA225B1350001167A2 /* Tickets and Extras */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		39E8ED3822568603003D7025 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				39E8ED172256858F003D7025 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39E8ED112256858F003D7025 /* ticketOffice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39E8ED2F22568591003D7025 /* Build configuration list for PBXNativeTarget "ticketOffice" */;
+			buildPhases = (
+				39E8ED0E2256858F003D7025 /* Sources */,
+				39E8ED0F2256858F003D7025 /* Frameworks */,
+				39E8ED102256858F003D7025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ticketOffice;
+			productName = ticketOffice;
+			productReference = 39E8ED122256858F003D7025 /* ticketOffice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39E8ED2522568591003D7025 /* ticketOfficeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39E8ED3222568591003D7025 /* Build configuration list for PBXNativeTarget "ticketOfficeTests" */;
+			buildPhases = (
+				39E8ED2222568591003D7025 /* Sources */,
+				39E8ED2322568591003D7025 /* Frameworks */,
+				39E8ED2422568591003D7025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39E8ED2822568591003D7025 /* PBXTargetDependency */,
+			);
+			name = ticketOfficeTests;
+			productName = ticketOfficeTests;
+			productReference = 39E8ED2622568591003D7025 /* ticketOfficeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39E8ED0A2256858F003D7025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Marcin Kosobudzki";
+				TargetAttributes = {
+					39E8ED112256858F003D7025 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					39E8ED2522568591003D7025 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 39E8ED112256858F003D7025;
+					};
+				};
+			};
+			buildConfigurationList = 39E8ED0D2256858F003D7025 /* Build configuration list for PBXProject "ticketOffice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39E8ED092256858F003D7025;
+			productRefGroup = 39E8ED132256858F003D7025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39E8ED112256858F003D7025 /* ticketOffice */,
+				39E8ED2522568591003D7025 /* ticketOfficeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39E8ED102256858F003D7025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E8ED2022568591003D7025 /* LaunchScreen.storyboard in Resources */,
+				39E8ED1D22568591003D7025 /* Assets.xcassets in Resources */,
+				39E8ED3A225699AF003D7025 /* README.md in Resources */,
+				39E8ED1B2256858F003D7025 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E8ED2422568591003D7025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39E8ED0E2256858F003D7025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936D3AA2257A17C001167A2 /* Constants.swift in Sources */,
+				3936D396225727D5001167A2 /* BaseTE.swift in Sources */,
+				39E8ED182256858F003D7025 /* ViewController.swift in Sources */,
+				3936D3A422576ED5001167A2 /* ThursdayOffer.swift in Sources */,
+				39E8ED3C22569B41003D7025 /* BaseTicket.swift in Sources */,
+				3936D3D0225B548E001167A2 /* ExtraIMAX.swift in Sources */,
+				3936D3D8225B5BD7001167A2 /* TicketStandard.swift in Sources */,
+				3936D39E225764E9001167A2 /* TicketTotalsManager.swift in Sources */,
+				3936D3DB225B5BED001167A2 /* TicketConcession.swift in Sources */,
+				3936D39922572A89001167A2 /* SpecialOffer.swift in Sources */,
+				39E8ED3F22569B57003D7025 /* BaseExtra.swift in Sources */,
+				39E8ED162256858F003D7025 /* AppDelegate.swift in Sources */,
+				3936D3CD225B2142001167A2 /* Double+Decorator.swift in Sources */,
+				3936D3D3225B54AC001167A2 /* ExtraReal3D.swift in Sources */,
+				3936D3A722576F49001167A2 /* BaseOffer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39E8ED2222568591003D7025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936D39A22572A89001167A2 /* SpecialOffer.swift in Sources */,
+				3936D3A822576F49001167A2 /* BaseOffer.swift in Sources */,
+				39E8ED2B22568591003D7025 /* ticketOfficeTests.swift in Sources */,
+				3936D3D4225B54AC001167A2 /* ExtraReal3D.swift in Sources */,
+				3936D39F225764E9001167A2 /* TicketTotalsManager.swift in Sources */,
+				3936D3AB2257A17C001167A2 /* Constants.swift in Sources */,
+				3936D3A522576ED5001167A2 /* ThursdayOffer.swift in Sources */,
+				39E8ED3D22569B41003D7025 /* BaseTicket.swift in Sources */,
+				3936D397225727D5001167A2 /* BaseTE.swift in Sources */,
+				3936D3DC225B5BED001167A2 /* TicketConcession.swift in Sources */,
+				3936D3D1225B548E001167A2 /* ExtraIMAX.swift in Sources */,
+				3936D3D9225B5BD7001167A2 /* TicketStandard.swift in Sources */,
+				39E8ED4022569B57003D7025 /* BaseExtra.swift in Sources */,
+				3936D3CE225B2142001167A2 /* Double+Decorator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39E8ED2822568591003D7025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39E8ED112256858F003D7025 /* ticketOffice */;
+			targetProxy = 39E8ED2722568591003D7025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39E8ED192256858F003D7025 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39E8ED1A2256858F003D7025 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39E8ED1E22568591003D7025 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39E8ED1F22568591003D7025 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39E8ED2D22568591003D7025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		39E8ED2E22568591003D7025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39E8ED3022568591003D7025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL5436W6E3;
+				INFOPLIST_FILE = ticketOffice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buentigre.ticketOffice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39E8ED3122568591003D7025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL5436W6E3;
+				INFOPLIST_FILE = ticketOffice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buentigre.ticketOffice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		39E8ED3322568591003D7025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL5436W6E3;
+				INFOPLIST_FILE = ticketOfficeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buentigre.ticketOfficeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ticketOffice.app/ticketOffice";
+			};
+			name = Debug;
+		};
+		39E8ED3422568591003D7025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CL5436W6E3;
+				INFOPLIST_FILE = ticketOfficeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.buentigre.ticketOfficeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ticketOffice.app/ticketOffice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39E8ED0D2256858F003D7025 /* Build configuration list for PBXProject "ticketOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E8ED2D22568591003D7025 /* Debug */,
+				39E8ED2E22568591003D7025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39E8ED2F22568591003D7025 /* Build configuration list for PBXNativeTarget "ticketOffice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E8ED3022568591003D7025 /* Debug */,
+				39E8ED3122568591003D7025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39E8ED3222568591003D7025 /* Build configuration list for PBXNativeTarget "ticketOfficeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39E8ED3322568591003D7025 /* Debug */,
+				39E8ED3422568591003D7025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39E8ED0A2256858F003D7025 /* Project object */;
+}
